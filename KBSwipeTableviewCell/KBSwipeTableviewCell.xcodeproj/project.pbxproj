@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C66F2356A66E60BDF08ADD /* libPods-KBSwipeTableviewCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E456A6B6346322529CE96318 /* libPods-KBSwipeTableviewCell.a */; };
+		CD51C5AE1E8A165500274133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD51C5AD1E8A165500274133 /* main.m */; };
+		CD51C5B11E8A165500274133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD51C5B01E8A165500274133 /* AppDelegate.m */; };
+		CD51C5B41E8A165500274133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD51C5B31E8A165500274133 /* ViewController.m */; };
+		CD51C5B71E8A165500274133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD51C5B51E8A165500274133 /* Main.storyboard */; };
+		CD51C5B91E8A165500274133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD51C5B81E8A165500274133 /* Assets.xcassets */; };
+		CD51C5BC1E8A165500274133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD51C5BA1E8A165500274133 /* LaunchScreen.storyboard */; };
+		CD51C5C71E8A165500274133 /* KBSwipeTableviewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD51C5C61E8A165500274133 /* KBSwipeTableviewCellTests.m */; };
+		CD51C5D21E8A165500274133 /* KBSwipeTableviewCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD51C5D11E8A165500274133 /* KBSwipeTableviewCellUITests.m */; };
+		CD8FB2AB1E8A5812005DAAB3 /* KBSwipeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB2AA1E8A5812005DAAB3 /* KBSwipeCell.m */; };
+		CD8FB2AE1E8A583F005DAAB3 /* KBSwipeCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB2AD1E8A583F005DAAB3 /* KBSwipeCellVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD51C5C31E8A165500274133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD51C5A11E8A165500274133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD51C5A81E8A165500274133;
+			remoteInfo = KBSwipeTableviewCell;
+		};
+		CD51C5CE1E8A165500274133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD51C5A11E8A165500274133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD51C5A81E8A165500274133;
+			remoteInfo = KBSwipeTableviewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8725F9182AAF9AA6D6FD0352 /* Pods-KBSwipeTableviewCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBSwipeTableviewCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBSwipeTableviewCell/Pods-KBSwipeTableviewCell.debug.xcconfig"; sourceTree = "<group>"; };
+		B3CC83E71E02F7E4213E0F97 /* Pods-KBSwipeTableviewCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBSwipeTableviewCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBSwipeTableviewCell/Pods-KBSwipeTableviewCell.release.xcconfig"; sourceTree = "<group>"; };
+		CD51C5A91E8A165500274133 /* KBSwipeTableviewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBSwipeTableviewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD51C5AD1E8A165500274133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD51C5AF1E8A165500274133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD51C5B01E8A165500274133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD51C5B21E8A165500274133 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD51C5B31E8A165500274133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD51C5B61E8A165500274133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD51C5B81E8A165500274133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD51C5BB1E8A165500274133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD51C5BD1E8A165500274133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD51C5C21E8A165500274133 /* KBSwipeTableviewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBSwipeTableviewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD51C5C61E8A165500274133 /* KBSwipeTableviewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBSwipeTableviewCellTests.m; sourceTree = "<group>"; };
+		CD51C5C81E8A165500274133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD51C5CD1E8A165500274133 /* KBSwipeTableviewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBSwipeTableviewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD51C5D11E8A165500274133 /* KBSwipeTableviewCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBSwipeTableviewCellUITests.m; sourceTree = "<group>"; };
+		CD51C5D31E8A165500274133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8FB2A91E8A5812005DAAB3 /* KBSwipeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSwipeCell.h; sourceTree = "<group>"; };
+		CD8FB2AA1E8A5812005DAAB3 /* KBSwipeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSwipeCell.m; sourceTree = "<group>"; };
+		CD8FB2AC1E8A583F005DAAB3 /* KBSwipeCellVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSwipeCellVC.h; sourceTree = "<group>"; };
+		CD8FB2AD1E8A583F005DAAB3 /* KBSwipeCellVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSwipeCellVC.m; sourceTree = "<group>"; };
+		E456A6B6346322529CE96318 /* libPods-KBSwipeTableviewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBSwipeTableviewCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD51C5A61E8A165500274133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C66F2356A66E60BDF08ADD /* libPods-KBSwipeTableviewCell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD51C5BF1E8A165500274133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD51C5CA1E8A165500274133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8F9BADF55B9D683323B323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E456A6B6346322529CE96318 /* libPods-KBSwipeTableviewCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD51C5A01E8A165500274133 = {
+			isa = PBXGroup;
+			children = (
+				CD51C5AB1E8A165500274133 /* KBSwipeTableviewCell */,
+				CD51C5C51E8A165500274133 /* KBSwipeTableviewCellTests */,
+				CD51C5D01E8A165500274133 /* KBSwipeTableviewCellUITests */,
+				CD51C5AA1E8A165500274133 /* Products */,
+				EF74DBBB9B674922D117DEF6 /* Pods */,
+				4E8F9BADF55B9D683323B323 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD51C5AA1E8A165500274133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD51C5A91E8A165500274133 /* KBSwipeTableviewCell.app */,
+				CD51C5C21E8A165500274133 /* KBSwipeTableviewCellTests.xctest */,
+				CD51C5CD1E8A165500274133 /* KBSwipeTableviewCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD51C5AB1E8A165500274133 /* KBSwipeTableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD51C5AF1E8A165500274133 /* AppDelegate.h */,
+				CD51C5B01E8A165500274133 /* AppDelegate.m */,
+				CD51C5B21E8A165500274133 /* ViewController.h */,
+				CD51C5B31E8A165500274133 /* ViewController.m */,
+				CD51C5B51E8A165500274133 /* Main.storyboard */,
+				CD51C5B81E8A165500274133 /* Assets.xcassets */,
+				CD51C5BA1E8A165500274133 /* LaunchScreen.storyboard */,
+				CD51C5BD1E8A165500274133 /* Info.plist */,
+				CD51C5AC1E8A165500274133 /* Supporting Files */,
+				CD8FB2A91E8A5812005DAAB3 /* KBSwipeCell.h */,
+				CD8FB2AA1E8A5812005DAAB3 /* KBSwipeCell.m */,
+				CD8FB2AC1E8A583F005DAAB3 /* KBSwipeCellVC.h */,
+				CD8FB2AD1E8A583F005DAAB3 /* KBSwipeCellVC.m */,
+			);
+			path = KBSwipeTableviewCell;
+			sourceTree = "<group>";
+		};
+		CD51C5AC1E8A165500274133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD51C5AD1E8A165500274133 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD51C5C51E8A165500274133 /* KBSwipeTableviewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD51C5C61E8A165500274133 /* KBSwipeTableviewCellTests.m */,
+				CD51C5C81E8A165500274133 /* Info.plist */,
+			);
+			path = KBSwipeTableviewCellTests;
+			sourceTree = "<group>";
+		};
+		CD51C5D01E8A165500274133 /* KBSwipeTableviewCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD51C5D11E8A165500274133 /* KBSwipeTableviewCellUITests.m */,
+				CD51C5D31E8A165500274133 /* Info.plist */,
+			);
+			path = KBSwipeTableviewCellUITests;
+			sourceTree = "<group>";
+		};
+		EF74DBBB9B674922D117DEF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8725F9182AAF9AA6D6FD0352 /* Pods-KBSwipeTableviewCell.debug.xcconfig */,
+				B3CC83E71E02F7E4213E0F97 /* Pods-KBSwipeTableviewCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD51C5A81E8A165500274133 /* KBSwipeTableviewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD51C5D61E8A165500274133 /* Build configuration list for PBXNativeTarget "KBSwipeTableviewCell" */;
+			buildPhases = (
+				45A2F57D959930BEDBCED111 /* [CP] Check Pods Manifest.lock */,
+				CD51C5A51E8A165500274133 /* Sources */,
+				CD51C5A61E8A165500274133 /* Frameworks */,
+				CD51C5A71E8A165500274133 /* Resources */,
+				B32727AE01CAC9A5C017F46D /* [CP] Embed Pods Frameworks */,
+				79EDA405909BE8D16E0F0C93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBSwipeTableviewCell;
+			productName = KBSwipeTableviewCell;
+			productReference = CD51C5A91E8A165500274133 /* KBSwipeTableviewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD51C5C11E8A165500274133 /* KBSwipeTableviewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD51C5D91E8A165500274133 /* Build configuration list for PBXNativeTarget "KBSwipeTableviewCellTests" */;
+			buildPhases = (
+				CD51C5BE1E8A165500274133 /* Sources */,
+				CD51C5BF1E8A165500274133 /* Frameworks */,
+				CD51C5C01E8A165500274133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD51C5C41E8A165500274133 /* PBXTargetDependency */,
+			);
+			name = KBSwipeTableviewCellTests;
+			productName = KBSwipeTableviewCellTests;
+			productReference = CD51C5C21E8A165500274133 /* KBSwipeTableviewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD51C5CC1E8A165500274133 /* KBSwipeTableviewCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD51C5DC1E8A165500274133 /* Build configuration list for PBXNativeTarget "KBSwipeTableviewCellUITests" */;
+			buildPhases = (
+				CD51C5C91E8A165500274133 /* Sources */,
+				CD51C5CA1E8A165500274133 /* Frameworks */,
+				CD51C5CB1E8A165500274133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD51C5CF1E8A165500274133 /* PBXTargetDependency */,
+			);
+			name = KBSwipeTableviewCellUITests;
+			productName = KBSwipeTableviewCellUITests;
+			productReference = CD51C5CD1E8A165500274133 /* KBSwipeTableviewCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD51C5A11E8A165500274133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kobe;
+				TargetAttributes = {
+					CD51C5A81E8A165500274133 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CD51C5C11E8A165500274133 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD51C5A81E8A165500274133;
+					};
+					CD51C5CC1E8A165500274133 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD51C5A81E8A165500274133;
+					};
+				};
+			};
+			buildConfigurationList = CD51C5A41E8A165500274133 /* Build configuration list for PBXProject "KBSwipeTableviewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD51C5A01E8A165500274133;
+			productRefGroup = CD51C5AA1E8A165500274133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD51C5A81E8A165500274133 /* KBSwipeTableviewCell */,
+				CD51C5C11E8A165500274133 /* KBSwipeTableviewCellTests */,
+				CD51C5CC1E8A165500274133 /* KBSwipeTableviewCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD51C5A71E8A165500274133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD51C5BC1E8A165500274133 /* LaunchScreen.storyboard in Resources */,
+				CD51C5B91E8A165500274133 /* Assets.xcassets in Resources */,
+				CD51C5B71E8A165500274133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD51C5C01E8A165500274133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD51C5CB1E8A165500274133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45A2F57D959930BEDBCED111 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79EDA405909BE8D16E0F0C93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBSwipeTableviewCell/Pods-KBSwipeTableviewCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B32727AE01CAC9A5C017F46D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBSwipeTableviewCell/Pods-KBSwipeTableviewCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD51C5A51E8A165500274133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD51C5B41E8A165500274133 /* ViewController.m in Sources */,
+				CD8FB2AE1E8A583F005DAAB3 /* KBSwipeCellVC.m in Sources */,
+				CD8FB2AB1E8A5812005DAAB3 /* KBSwipeCell.m in Sources */,
+				CD51C5B11E8A165500274133 /* AppDelegate.m in Sources */,
+				CD51C5AE1E8A165500274133 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD51C5BE1E8A165500274133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD51C5C71E8A165500274133 /* KBSwipeTableviewCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD51C5C91E8A165500274133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD51C5D21E8A165500274133 /* KBSwipeTableviewCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD51C5C41E8A165500274133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD51C5A81E8A165500274133 /* KBSwipeTableviewCell */;
+			targetProxy = CD51C5C31E8A165500274133 /* PBXContainerItemProxy */;
+		};
+		CD51C5CF1E8A165500274133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD51C5A81E8A165500274133 /* KBSwipeTableviewCell */;
+			targetProxy = CD51C5CE1E8A165500274133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD51C5B51E8A165500274133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD51C5B61E8A165500274133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD51C5BA1E8A165500274133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD51C5BB1E8A165500274133 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD51C5D41E8A165500274133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD51C5D51E8A165500274133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD51C5D71E8A165500274133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8725F9182AAF9AA6D6FD0352 /* Pods-KBSwipeTableviewCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBSwipeTableviewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBSwipeTableviewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD51C5D81E8A165500274133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CC83E71E02F7E4213E0F97 /* Pods-KBSwipeTableviewCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBSwipeTableviewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBSwipeTableviewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD51C5DA1E8A165500274133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBSwipeTableviewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBSwipeTableviewCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBSwipeTableviewCell.app/KBSwipeTableviewCell";
+			};
+			name = Debug;
+		};
+		CD51C5DB1E8A165500274133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBSwipeTableviewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBSwipeTableviewCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBSwipeTableviewCell.app/KBSwipeTableviewCell";
+			};
+			name = Release;
+		};
+		CD51C5DD1E8A165500274133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBSwipeTableviewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBSwipeTableviewCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBSwipeTableviewCell;
+			};
+			name = Debug;
+		};
+		CD51C5DE1E8A165500274133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBSwipeTableviewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBSwipeTableviewCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBSwipeTableviewCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD51C5A41E8A165500274133 /* Build configuration list for PBXProject "KBSwipeTableviewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD51C5D41E8A165500274133 /* Debug */,
+				CD51C5D51E8A165500274133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD51C5D61E8A165500274133 /* Build configuration list for PBXNativeTarget "KBSwipeTableviewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD51C5D71E8A165500274133 /* Debug */,
+				CD51C5D81E8A165500274133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD51C5D91E8A165500274133 /* Build configuration list for PBXNativeTarget "KBSwipeTableviewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD51C5DA1E8A165500274133 /* Debug */,
+				CD51C5DB1E8A165500274133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD51C5DC1E8A165500274133 /* Build configuration list for PBXNativeTarget "KBSwipeTableviewCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD51C5DD1E8A165500274133 /* Debug */,
+				CD51C5DE1E8A165500274133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD51C5A11E8A165500274133 /* Project object */;
+}

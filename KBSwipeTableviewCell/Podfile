@@ -1,0 +1,4 @@
+platform:ios,'7.0'
+target 'KBSwipeTableviewCell' do
+pod 'Masonry','~>0.6.4'
+end
